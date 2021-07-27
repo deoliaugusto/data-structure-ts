@@ -7,4 +7,4 @@ var nodeList2 = new listNode_1.ListNode(5);
 nodeList1.next = nodeList2;
 var list = new linkedLIst_1.LinkedList(nodeList1);
 
-console.log(list.head);
+console.log(list.head.next.data);
